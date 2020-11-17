@@ -23,7 +23,6 @@ namespace API.Controllers
         [HttpPost("register")]
         public async Task<ActionResult<UserDTO>> Register(RegisterDTO registerDTO)
         {
-
             if (await UserExists(registerDTO.Username)) return BadRequest("Username is taken");
 
             using var hmac = new HMACSHA512();
