@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "+xQXF3y8NAwBsrESbgyX9KNbW4Hxjr/HmKFz0W4+Nu3lwEhBUNETMb0o/ZFcl5Z696afyNzHbqZAEzVBaIBzkA==",
+  "dgSpecHash": "a3CNSipQumyafxsUAUp0YemnrUqrCpjzHbyg8dn3IP0Uw8TKxpd7h7ZBeyid+yHpqaMkG+ffad4KWZZzrBOzHQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tonyl\\.nuget\\packages\\automapper\\10.1.0\\automapper.10.1.0.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.0\\automapper.extensions.microsoft.dependencyinjection.8.1.0.nupkg.sha512",
+    "C:\\Users\\tonyl\\.nuget\\packages\\cloudinarydotnet\\1.13.2\\cloudinarydotnet.1.13.2.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.0\\microsoft.aspnetcore.authentication.jwtbearer.5.0.0.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.0\\microsoft.aspnetcore.authentication.openidconnect.5.0.0.nupkg.sha512",
@@ -36,6 +37,7 @@
     "C:\\Users\\tonyl\\.nuget\\packages\\microsoft.identitymodel.protocols.openidconnect\\6.7.1\\microsoft.identitymodel.protocols.openidconnect.6.7.1.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.8.0\\microsoft.identitymodel.tokens.6.8.0.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\tonyl\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\sqlitepclraw.bundle_e_sqlite3\\2.0.4\\sqlitepclraw.bundle_e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
     "C:\\Users\\tonyl\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
