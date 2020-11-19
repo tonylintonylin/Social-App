@@ -13,7 +13,7 @@ export class MessagesComponent implements OnInit {
   pagination: Pagination;
   container = 'Unread';
   pageNumber = 1;
-  pageSize = 5;
+  pageSize = 2;
   loading = false;
 
   constructor(private messageService: MessageService) {}
