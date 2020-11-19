@@ -1,13 +1,15 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
-import { ToastrModule, ToastrService } from 'ngx-toastr';
-import { TabsModule } from 'ngx-bootstrap/tabs';
 import { NgxGalleryModule } from '@kolkov/ngx-gallery';
 import { HttpClientModule } from '@angular/common/http';
 import { FileUploadModule } from 'ng2-file-upload';
+
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { ToastrModule } from 'ngx-toastr';
+import { TabsModule } from 'ngx-bootstrap/tabs';
 import { BsDatepickerModule } from 'ngx-bootstrap/datepicker';
 import { PaginationModule } from 'ngx-bootstrap/pagination';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
 @NgModule({
   declarations: [],
@@ -23,6 +25,7 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
     FileUploadModule,
     BsDatepickerModule.forRoot(),
     PaginationModule.forRoot(),
+    ButtonsModule.forRoot(),
   ],
   exports: [
     BsDropdownModule,
@@ -32,6 +35,7 @@ import { PaginationModule } from 'ngx-bootstrap/pagination';
     FileUploadModule,
     BsDatepickerModule,
     PaginationModule,
+    ButtonsModule,
   ],
 })
 export class SharedModule {}
