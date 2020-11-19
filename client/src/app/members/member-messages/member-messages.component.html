@@ -8,7 +8,8 @@
             <li *ngFor="let message of messages">
                 <div>
                     <span class="chat-img float-right">
-                        <img class="rounded-circle" src="{{message.senderPhotoUrl || './assets/user.png'}}"
+                        <img class="rounded-circle" 
+                        src="{{message.senderPhotoUrl || './assets/user.png'}}"
                             alt="{{message.senderUsername}}">
                     </span>
                     <div class="chat-body">

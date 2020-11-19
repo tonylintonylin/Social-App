@@ -6,13 +6,13 @@ namespace API.Entities
     {
         public int Id { get; set; }
 
-        public int SenderId{ get; set; }
+        public int SenderId { get; set; }
 
-        public string SenderUsername{ get; set; }
+        public string SenderUsername { get; set; }
 
         //*-*
 
-        public AppUser Sender{ get; set; }
+        public AppUser Sender { get; set; }
 
         public int RecipientId { get; set; }
 
@@ -28,8 +28,8 @@ namespace API.Entities
 
         public DateTime MessageSent { get; set; } = DateTime.Now;
 
-        public bool SenderDeleted{ get; set; }
+        public bool SenderDeleted { get; set; }
 
-        public bool RecipientDeleted{ get; set; }
+        public bool RecipientDeleted { get; set; }
     }
 }
