@@ -1,6 +1,6 @@
 import { HttpClient, HttpParams } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable, of, pipe } from 'rxjs';
+import { of } from 'rxjs';
 import { map, take } from 'rxjs/operators';
 import { environment } from 'src/environments/environment';
 import { Member } from '../_models/member';
@@ -104,7 +104,7 @@ export class MembersService {
     const paginatedResult: PaginatedResult<T> = new PaginatedResult<T>();
 
     return this.http
-      .get<T>(this.baseUrl + 'users', { observe: 'response', params })
+      .get<T>(url, { observe: 'response', params })
       .pipe(
         map((response) => {
           paginatedResult.result = response.body;

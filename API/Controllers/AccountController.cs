@@ -46,7 +46,7 @@ namespace API.Controllers
                 Token = _tokenService.CreateToken(user),
                 KnownAs = user.KnownAs,
                 Gender = user.Gender
-        };
+            };
         }
 
         [HttpPost("login")]
