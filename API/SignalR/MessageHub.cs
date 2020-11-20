@@ -45,7 +45,7 @@ namespace API.SignalR
         {
             var username = Context.User.GetUsername();
 
-            if (username == createMessageDto.RecipientUsername.ToLower())
+            if (username == createMessageDTO.RecipientUsername.ToLower())
                 throw new HubException("You cannot send messages to yourself");
 
             var sender = await _userRepository.GetUserByUsernameAsync(username);
@@ -66,7 +66,7 @@ namespace API.SignalR
 
             if (await _messageRepository.SaveAllAsync()) {
                 var group = GetGroupName(sender.UserName, recipient.UserName);
-                await Clients.Group(group).SendAsync("NewMessage", _mapper.Map<MessageDTO>(message))
+                await Clients.Group(group).SendAsync("NewMessage", _mapper.Map<MessageDTO>(message));
             }
         }
 
