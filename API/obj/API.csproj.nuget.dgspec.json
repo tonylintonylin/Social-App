@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj": {}
+    "C:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj": {
+    "C:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj",
+        "projectPath": "C:\\Users\\tonyl\\Desktop\\DatingApp\\API\\API.csproj",
         "packagesPath": "C:\\Users\\tonyl\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\tonyl\\Desktop\\DatingApp\\API\\obj\\",
+        "outputPath": "C:\\Users\\tonyl\\Desktop\\DatingApp\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tonyl\\AppData\\Roaming\\NuGet\\NuGet.Config",
